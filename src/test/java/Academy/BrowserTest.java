@@ -12,7 +12,7 @@ public class BrowserTest {
 	@Test
 	public void getData()
 	{
-		System.out.println("Hello Guyzz");
+		System.out.println("Hello Guy");
 		WebDriver driver =new ChromeDriver();
 		driver.get("https://www.google.com");
 		driver.close();
